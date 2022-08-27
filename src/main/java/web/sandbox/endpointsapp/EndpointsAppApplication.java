@@ -9,7 +9,6 @@ public class EndpointsAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EndpointsAppApplication.class, args);
-
 	}
 
 }

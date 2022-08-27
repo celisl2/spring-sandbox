@@ -16,7 +16,6 @@ import web.sandbox.util.Constants;
 @RestController
 @RequestMapping("/api")
 public class SandboxController {
-    
     Log LOGGER = LogFactory.getLog(SandboxController.class);
 
     @RequestMapping(value = Constants.SYSTEM_TIME_ENDPOINT, method = RequestMethod.GET)
